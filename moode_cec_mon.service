@@ -1,0 +1,21 @@
+[Unit]
+
+Description=cecmon
+
+[Service]
+
+ExecStart=bash moode_cec_mon_v1.0.sh
+
+WorkingDirectory=/opt/shoefone/cec
+
+StandardOutput=inherit
+
+StandardError=inherit
+
+Restart=always
+
+User=pi
+
+[Install]
+
+WantedBy=multi-user.target
