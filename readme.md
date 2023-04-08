@@ -1,4 +1,4 @@
-Prerequistes:
+# Prerequistes:
 
 0) Start with a system running moode (image moode-r730-iso.zip tested), attached to a television with an HDMI cable.
 
